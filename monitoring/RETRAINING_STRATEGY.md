@@ -314,6 +314,6 @@ Model retraining is successful if:
 
 ---
 
-**Last Updated**: 2026-02-08  
-**Owner**: Data Science Team  
+**Last Updated**: 2026-02-10 
+**Owner**: Abhishek Nagare  
 **Review Schedule**: Quarterly
