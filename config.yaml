@@ -24,13 +24,13 @@ lightgbm:
   early_stopping_rounds: 50
   
 threshold_strategy:
-  primary: "recall_80"  # Target 80% recall
-  fallback: "fpr_1"     # Or max 1% FPR
+  primary: "recall_80"  #Target 80% recall
+  fallback: "fpr_1"     #Or max 1% FPR
   
 business_constraints:
-  min_approval_rate: 95.0  # % of legitimate customers approved
-  max_fpr: 0.01            # Maximum 1% false positive rate
-  target_recall: 0.80      # Target 80% fraud caught
+  min_approval_rate: 95.0  #% of legitimate customers approved
+  max_fpr: 0.01            #Maximum 1% false positive rate
+  target_recall: 0.80      #Target 80% fraud caught
   
 evaluation_metrics:
   - precision
