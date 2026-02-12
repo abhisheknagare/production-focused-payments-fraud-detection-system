@@ -203,9 +203,7 @@ def add_realistic_features(df):
 
 def main():
     """Main execution"""
-    print("=" * 60)
-    print("SYNTHETIC PAYMENT FRAUD DATA GENERATOR")
-    print("=" * 60)
+    print("\nSYNTHETIC PAYMENT FRAUD DATA GENERATOR")
     print()
 
     #Generate data
@@ -218,12 +216,10 @@ def main():
     output_path = '../data/raw/transactions.csv'
     df.to_csv(output_path, index=False)
 
-    print(f"\n✅ Data generated successfully!")
-    print(f"📁 Saved to: {output_path}")
-    print(f"📊 Shape: {df.shape}")
-    print(f"\n{'='*60}")
-    print("DATASET STATISTICS")
-    print(f"{'='*60}")
+    print(f"\nData generated successfully!")
+    print(f"Saved to: {output_path}")
+    print(f"Shape: {df.shape}")
+    print("\nDATASET STATISTICS")
     print(f"Total Transactions: {len(df):,}")
     print(f"Fraud Transactions: {df['is_fraud'].sum():,}")
     print(f"Fraud Rate: {df['is_fraud'].mean()*100:.3f}%")

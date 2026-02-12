@@ -13,13 +13,13 @@
 
 ### The Business Problem
 
-Payment fraud costs e-commerce companies **$30B annually**. Traditional rule-based systems:
+Payment fraud is a systemic risk across fintech platforms, marketplaces, digital banks, and global payment processors. As transaction volumes scale, traditional rule-based systems struggle to balance fraud prevention with customer experience:
 - ❌ Catch only 40-50% of fraud
 - ❌ Block 5-10% of legitimate customers (false positives)
 - ❌ Can't adapt to evolving fraud patterns
 
 This project builds a **production-grade ML system** that:
-- ✅ Catches **80%** of fraud (1.6× better than rules)
+- ✅ Detects **80%** of fraud (1.6× better than rules)
 - ✅ Maintains **99.5%** customer approval rate
 - ✅ Processes transactions in **<2ms** (real-time)
 - ✅ Adapts automatically through **monthly retraining**
@@ -447,9 +447,9 @@ Champion (v1.0)          Challenger (v2.0)
 Monitor for 7 days: Compare metrics
     ↓
 If Challenger better:
-  ✅ Promote to Champion (now serves 100%)
+    Promote to Champion (now serves 100%)
 Else:
-  🔄 Rollback, keep Champion
+    Rollback, keep Champion
 ```
 
 **Rollback Plan**:
@@ -783,7 +783,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## 🙏 Acknowledgments
 
-- Dataset inspiration: IEEE-CIS Fraud Detection
+- Dataset Custom synthetic payments dataset designed to simulate real-world fraud patterns and transaction behavior
 - Feature engineering guidance: Stripe Radar team blog
 - Monitoring best practices: Evidently AI documentation
 
@@ -793,7 +793,6 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 Questions? Found a bug? Have suggestions?
 
-- Open an issue: [GitHub Issues](https://github.com/abhisheknagare/repo/issues)
 - Email: abhisheknagare01@gmail.com
 
 ---
