@@ -1,4 +1,4 @@
-!pip install duckdb
+#!pip install duckdb
 
 """
 Feature Engineering with DuckDB - 10x Faster than Pandas
